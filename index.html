@@ -1,0 +1,700 @@
+<!DOCTYPE html> <!--DOCTYPE siempre va en mayus. y se usa para especificar en que tipo de lenguaje de marcado se trabajara.
+DOCTYPE, NO es una etiqueta es una DECLARACION. Declara en que lenguaje se hara el documento.-->
+<html lang="en"> <!--html es el lenguaje de marcado y es la etiqueta principal que envuelve a todo el documento. -->
+
+<head> <!--es la cabeza de la pagina web, aca va todo lo que el usuario no ve-->
+
+    <meta charset="UTF-8"> <!--La etiqueta meta charset sirve para que el navegador permita la ñ o simbolos como acentos o tiles, etc.-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--se usa para poder adecuar la pagina web a distintas pantallas, como celulares
+    tablets, etc.-->
+
+    <title>practikeishon</title> <!--la etiqueta title es el titulo que sale en la pestaña. Y muy importante, el titulo debe ser entre 55 y 65 caracteres-->
+
+    <meta name="description" content="Tamos viendo html aca perreque"> <!--Sirve para poner una descripcion de la pagina, por ejemplo lo que sale debajo
+    de Youtube cuando bucas en google. Importante, No mas de 165 caracteres.--> 
+
+    <link rel="stylesheet" href="multimedia/assets/estilos.css">
+    <link rel="canonica" href="https://tudominio.com/la-url-canónica"> <!--En href iria la URL canonica de nuestra pagina web -->
+    <link rel="icon" href="multimedia/imagenes,etc/favicon.png"> <!--para computadoras-->
+    <link rel="apple-touch-icon" href="multimedia/imagenes,etc/favicon.png"> <!--para dispositivos moviles, esta es la que mejor resolucion debe tener-->
+    <meta name="theme-color" content="#008000"> <!-- para moviles-->
+    <meta name="keywords" content="Practicar html, html, ejemplos"><!--para poner palabras clave-->
+    <meta name="author" content="Yo, Franco Mazzei"> <!--Para poner el nombre del autor/a de la pagina web. o los autores.-->
+    <meta name="Copyrigth" content="empresa.inc"> <!--Para especificar los derechos de autor de un sitio web o app-->
+    <meta name="robots" content="noindex"> <!--Para que los motores de busqueda sigan los enlaces-->
+    <meta name="robots" content="nofollow"> <!--Para que los motores de busqueda no sigan los enlaces-->
+    <meta property="og:title" content="practikeishon"> <!--Se debe respetar el titulo que ya se habia puesto en title-->
+    <meta property="og:description" content="Tamos viendo html aca perreque"> <!--Lo mismo, se debe respetar la descripcion que ya se habia puesto-->
+    <meta property="og:image" content="https://tudominio.com/la-ruta-de-la-imagen"> <!--Se debe poner la imagen cuando ya tengamos un domninio y no con la ruta de la imagen como cuando usamos un <img>-->
+    <meta property="og:url" content="https://tudominio.com/index.html"> <!--se debe poner la url real-->
+    <meta name="twitter:card" content="summary"> <!--a veces las paginas tienen sus propias meta etiquetas como twitter-->
+    <meta name="twitter:site" content="cuentadetwiter"> <!--para poner nuestro perfil -->
+    <!--Estas meta etiqueta desde la primera de property hasta la ultima no servira hasta que nuestra pagina este en un servidor-->
+    <meta>
+    <meta>
+    <meta>
+    <meta>
+    <meta>
+   
+
+
+
+   
+</head>
+
+<body> <!--Es el cuerpo de la pagina, aca va todo lo que el usuario ve-->
+
+    <h2 id="indice">Indice:</h2>
+
+   <li><a href="index.html#encabezados">Encabezados</a></li>
+   <li><a href="index.html#etiquetas.texto">Etiquetas de texto</a></li>
+   <li><a href="index.html#etiquetas.texto.seman.signnifi">Etiquetas de texto semanticas</a></li>
+   <li><a href="index.html#etiquetas.texto.seman">Etiquetas de texto semanticas estructurales</a></li>
+   <li><a href="index.html#etiquetas.texto.pre">Etiquetas de texto pre-formateadas</a></li>
+   <li><a href="index.html#etiquetas-para.listas">Etiquetas para listas</a></li>
+   <ul>
+    <li><a href="index.html#listas.desordena">Listas desordenadas</a></li>
+    <li><a href="index.html#listas.ordena">Listas ordenadas</a></li>
+    <li><a href="index.html#listas.defini">Listas de definicion</a></li>
+   </ul>
+   <li><a href="index.html#etiquetas.salto">Etiquetas de salto</a></li>
+   <li><a href="index.html#etiquetas.fecha.hora">Etiquetas para fechas y horas</a></li>
+   <li><a href="index.html#etiquetas.linea.bloque">Etiquetas de linea y de bloque</a></li>
+   <li><a href="index.html#etiquetas.enlaces">Etiquetas de enlaces</a></li>
+   <li><a href="index.html#enlaces.internos">Enlaces internos</a></li>
+   <li><a href="index.html#enlaces.rsociales">Enlaces para redes sociales</a></li>
+   <li><a href="index.html#etiquetas.multimedia">Etiquetas de multimedia</a></li>
+   <li><a href="index.html#figuras">Figuras</a></li>
+   <li><a href="index.html#tablas">Tablas</a></li>
+   <li><a href="index.html#tabla.elaborada">Tabla mas elaborada</a></li>
+   <li><a href="index.html#elemnt.inter">Elementos Interactivos</a></li>
+   <li><a href="index.html#i.frames">Iframes</a></li>
+   <li><a href="index.html#formularios">Formularios</a></li>
+   <li><a href="index.html#selec.r.c">Select,radio y checkbox</a></li>
+   <li><a href="index.html#formu-de-contac">Formulario de contacto</a></li>
+   <li><a href="index.html#data-a">Data Attributes</a></li>
+   <li><a href="index.html#meta-e">Metaetiquetas para SEO y moviles</a></li>
+   <li><a href="index.html#metae-redess">Meta etiquetas para redes sociales</a></li>
+   <li><a href="index.html#acc-web">Accesibilidad Web</a></li>
+   <li><a href="index.html#"></a></li>
+   <li><a href="index.html#"></a></li>
+   
+
+
+   <br><hr>
+
+    <h2 id="encabezados">Encabezados</h2> 
+    <h1>Titulo de la pagina o encabezado principal</h1> <!--Es el titulo de la pagina o encabezado principal y solo se puede poner uno por documento HTML-->
+    <h3>Subtitulo o otro titulo mas pequeño</h3> <!--de h2 a h6 son otros titulos o subtitulos, y se pueden usar desordenados, poner por ejemplo
+        un h2 dentro de un h4 o asi-->
+    <h4>Subtitulo o otro titulo mas pequeño</h4>
+    <h5>Subtitulo o otro titulo mas pequeño</h5>
+    <h6>Subtitulo o otro titulo mas pequeño</h6>
+    <a href="index.html#indice">⬆️</a>
+    <hr><br>
+
+    <h2 id="etiquetas.texto">Etiquetas de texto:</h2>
+    <p>p de parrafo o paragraph en ingles sirve para escribir textos xd</p>
+    <b>Es para poner las letras en color negroide</b><br>
+    <i>Se pone las palabras como torcidas, en italica</i><br>
+    <u>Para escribir con subrayado</u><br>
+    <mark>Escribe como si fuera un resaltador</mark><br>
+    <small>letra chiquititaaa</small><br>
+    <p>y si quisiera escribir una formula con numero elevado?, se hace con la etiqueta sup</p>
+    <p>E=mc<sup>2</sup></p>
+    <p>Y si quisiera poner el numero abajo?, entonces con sub</p>
+    <p>H<sub>2</sub>O</p>
+    <a href="index.html#indice">⬆️</a>
+    <hr><br>
+    
+
+    <h2 id="etiquetas.texto.seman.signnifi">Etiquetas de texto semanticas(con significado)</h2>
+
+    <blockquote>No gastes tu vida y tiempo haciendo feliz a los demas, con cosas que no te hacen feliz
+        a ti, viniste a este mundo a aprender y ser feliz.
+    </blockquote> <!--Se usa para citas o frases, se vera con un espacio-->
+
+    <cite>Franco Mazzei.</cite> <!--Se usa para acompañar o puede acompañar a blockquote, seria para poner el nombre del autor/a.-->
+    
+    <strong>Tomar agua es importante pelotudo C:</strong> <!--Se usa para resaltar la importancia de todo el texto-->
+    
+    <em>Hacer ejercicio es importante</em> <!--se usa para resaltar una parte especifica del texto-->
+
+    <a href="index.html#indice">⬆️</a>
+    <hr><br>
+
+    <h2 id="etiquetas.texto.seman">Etiquetas de texto semanticas estructurales</h2> <!--Se usan para dar una buena estructura y organizar a la pagina no solo en HTML si no tambien en CSS-->
+
+    <header> header representa la cabecera de una pagina web o seccion de contenido.</header><br>
+    <nav> nav se usa para representar la parte de navegacion de un sitio web o lo que se realice.</nav>
+    <p>Ejemplo de navegacion:</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="otra cosita.html">otra cosa</a></li>
+                <li><a href="Quesito.html">Queso</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>main se usa para agrupar el contenido principal de una pagina web.</main><br>
+    <section>Section es para indicar en que parte debe ir cada contenido en un sitio web</section><br>
+    <footer>footer es el pie de la pagina, donde se muestran cosas como el Copyrigth, contactos, cosas legales y demas.</footer><br>
+    <article> article representa un articulo, como una publicacion de un blog, una notica, etc.</article><br>
+    <aside>aside representa los contenidos relacionados o no con el contenido principal, ejemplos: anuncios.</aside><br>
+    <address> address es donde iria la informacion de contacto, emails, numeros, direcciones, etc.</address><br>
+    <a href="index.html#indice">⬆️</a>
+    <hr>
+
+    <h2 id="etiquetas.texto.pre">Etiquetas de texto pre-formateadas</h2><!--Muestran el texto tal cual se escribe aca-->
+
+    <p>Etiqueta pre:</p>
+    <p>sirven para dar ejemplos de programacion mas que nada</p>
+    <pre>
+        es una etiqueta que sirve para poner ejemplos de programacion simplemente
+    </pre>
+    
+    <P>Etiqueta code:</P>
+    <code>sirve para dar ejemplos de programacion tambien, su proposito es indicar que el contenido entre las etiquetas es codigo y no texto normal</code>
+    <a href="index.html#indice">⬆️</a>
+    <hr><br>
+
+    <h2 id="etiquetas-para.listas">Etiquetas para crear listas</h2>
+    
+    <h3 id="listas.desordena">Listas desordenadas:</h3>
+    <ul>
+        <li>Una barra de plutonio</li>
+        <li>5g de materia obscura</li>
+        <li>Un diamante en lo posible rosa</li>
+    </ul>
+    <ul type="circle">
+        <li>Una barra de plutonio</li>
+        <li>5g de materia obscura</li>
+        <li>Un diamante en lo posible rosa</li>
+    </ul>
+    <ul type="square">
+        <li>Una barra de plutonio</li>
+        <li>5g de materia obscura</li>
+        <li>Un diamante en lo posible rosa</li>
+    </ul>
+    <hr>
+    <h3 id="listas.ordena">Listas ordenadas:</h3>
+    <ol>
+        <li>2 lingotes de oro de 12,5 kg</li>
+        <li>400 microchips</li>
+        <li>Antena espacial</li>
+    </ol>
+    <ol start="6">
+        <li>2 lingotes de oro de 12,5 kg</li>
+        <li>400 microchips</li>
+        <li>Antena espacial</li>
+    </ol>
+    <ol reversed="3">
+        <li>2 lingotes de oro de 12,5 kg</li>
+        <li>400 microchips</li>
+        <li>Antena espacial</li>
+    </ol>
+    <ol type="A">
+        <li>2 lingotes de oro de 12,5 kg</li>
+        <li>400 microchips</li>
+        <li>Antena espacial</li>
+    </ol>
+    <ol type="a">
+        <li>2 lingotes de oro de 12,5 kg</li>
+        <li>400 microchips</li>
+        <li>Antena espacial</li>
+    </ol>
+    <ol type="I">
+        <li>2 lingotes de oro de 12,5 kg</li>
+        <li>400 microchips</li>
+        <li>Antena espacial</li>
+    </ol>
+    <ol type="i">
+        <li>2 lingotes de oro de 12,5 kg</li>
+        <li>400 microchips</li>
+        <li>Antena espacial</li>
+    </ol>
+    <h3 id="listas.defini">Lista de definicion:</h3>
+    <dl>
+        <dt>Estrellas</dt>
+        <dd>Bola de gas caliente y brillante</dd>
+    </dl>
+    <a href="index.html#indice">⬆️</a>
+     <hr>
+
+    <h2 id="etiquetas.salto">Etiquetas de salto</h2> <!--Para hacer como un punto y aparte o una linea de separacion-->
+
+    <p> br es una etiqueta que se usa para dejar como un punto y aparte.</p>
+    <p> hr es una etiqueta que se usa para crear una linea de separacion</p>
+    <!--con CSS todo quedara mas bonito-->
+    <a href="index.html#indice">⬆️</a>
+    <hr>
+    <h2 id="etiquetas.fecha.hora">Etiquetas para fechas y horas</h2>
+    La partida comenzara el dia 09/05/23 <time datetime="2023-05-09T18:00">a las 18:00</time>
+    <a href="index.html#indice">⬆️</a>
+    <hr>
+
+
+    <h2 id="etiquetas.linea.bloque">etiquetas de linea y de bloque</h2>
+
+    <div style="background-color: greenyellow; color: purple;"> div es una etiqueta de bloque, porque ocupa todo el ancho de la pantalla + un espacio de arriba y otro espacio de abajo. Y sirve para agrupar contenidos</div> <!--aunque esto se puede modificar con CSS-->
+    <span style="background-color: blanchedalmond; color: crimson;"> span es una etiqueta de linea y sirve tambien para agrupar contenidos, pero esta no ocupa lo mismo que la anterior. </span> <!--Poner el color en HTML de esta forma se considera una mala practica porque puede llevar a problemas
+    es mejor si se pone todo lo que sea estilos en una hoja de estilos CSS-->
+    <a href="index.html#indice">⬆️</a>
+    <hr>
+
+    <h2 id="etiquetas.enlaces">Etiquetas de enlaces</h2>
+
+    <a href="https://www.youtube.com/watch?v=-CV_Ce4ODE0" target="_blank" rel="nofollow">Alto tema amigo</a> <!--la etiqueta a se usa para enlazar paginas o cosas, varios atributos y valores-->
+    <br>
+    <link> <!-- se usa para vincular documentos html con otros recursos, como CSS, Js, etc. Ademas sirve para enlazar documentos de textos, entre otras cosas.-->
+    <a href="Quesito.html" target="_blank">Quesitos rikis</a>
+    <br>
+    <p>Los enlaces tampoco son 100% para paginas o asi, si no que tambien sirven para poner imagenes o contenido multimedia</p>
+    <p>mira este hermoso queso,tocalo</p>
+    <a href="Quesito.html" target="_blank">
+        <img src="/multimedia/imagenes,etc/queso.png" alt="Queso, ahre que no es un queso"> 
+    </a>
+    <br>
+    <a href="/multimedia/imagenes,etc/ceniceroloco.jpg">Buena idea para un cenicero</a>
+    <!--Cualquier tipo de imagen, gif, vector, lo que sea puede ser un enlace.-->
+    <a href="index.html#indice">⬆️</a>
+    <hr>
+
+    <h2 id="enlaces.internos">Enlaces internos</h2>
+    <p>Los enlaces internos son enlaces dah, jaja pero que en vez de guiarnos a paginas exteriores, nos llevan a otras partes 
+        de nuestra propia pagina. El mejor ejemplo es cuando creamos un indice o temario, son muchos temas y cuando se toca uno
+        de inmediato nos lleva hacia esa parte de la pagina. El ejemplo de enlaces internos esta arriba, porque para hacer un indice, 
+        quedaba mejor. 
+    </p>
+    <a href="index.html#indice">⬆️</a>
+    <hr>
+    <h2 id="enlaces.rsociales">Enlaces para redes sociales</h2>
+
+    <a href="maito:Hola_@gmail.com">Correo electrónico</a>
+    <br>
+    <a href="maito:Hola@soyalbondiga.com">Correo electrónico personalizado</a>
+    <br>
+    <a href="tel:541155555555">Teléfono</a>
+    <br>
+    <a href="https://wa.me/541155555555">WhatsApp opcion 1</a>
+    <br>
+    <a href="https://api.whatsapp.com/send?phone=541155555555&text=Holis"target="_blank">WhatsApp opcion 2</a>
+
+    <br><a href="index.html#indice">⬆️</a>
+    <br><hr>
+
+
+    <h2 id="etiquetas.multimedia">Etiquetas de multimedia</h2><!--Etiquetas para poner imagenes, gif, videos, y mas.-->
+    <h3>imagenes</h3>
+    <img src="/multimedia/imagenes,etc/ceniceroloco.jpg" alt="un cenicero de un alien fumandose un porro" title="alien fuma porro cenicero" width="150px" height="300px"><br>
+    <img src="multimedia/imagenes,etc/tigre.gif" alt="un tigre psicodelico" title="esto es un gif">
+    <h3>videos y audios</h3>
+    <p>La etiqueta audio y etiqueta video poseen las mismas caracteristicas, osea atributos</p>
+    <video src="/multimedia/media/Coscu y Momo pero son Woody y Buzz Lightyear (Doblaje parodia).mp4" controls width="150px" height="300px" preload="auto" poster="/multimedia/imagenes,etc/buddybuzz.jpg">e muy bueno jajja</video> <br>
+    <audio src="/multimedia/media/X2Download.app - DELIVERY DE EMPANADAS _ Audio Whatsapp (128 kbps).mp3" controls></audio><br>
+    <a href="index.html#indice">⬆️</a>
+    <hr>
+
+    <h2 id="figuras">Figuras</h2> <!--es una etiqueta para poner imagenes con significados para la maquina-->
+    <figure>
+
+        <img src="multimedia/imagenes,etc/albondiganuclear.jpg" alt="una albondiga nuclear" title="Albondiga nuclear">
+        <figcaption>Una albondiga nuclear</figcaption> <!--esto es opcional ya que es como una descripcion de la imagen o subtitulo, se puede dejar solo el atributo alt y no pasa nada-->
+
+    </figure>
+    <a href="index.html#indice">⬆️</a>
+    <hr>
+
+    <h2 id="tablas">Tablas</h2>
+     <table>
+        <tr>
+            <td>Nombre</td>
+            <td>Tipo</td>
+        </tr>
+        <tr>
+        <td>D.va</td>
+        <td>tanque</td>
+     </tr>
+     <tr>
+        <td>Soldado 76</td>
+        <td>Daño</td>
+     </tr>
+     <tr>
+        <td>Mercy</td>
+        <td>Apoyo</td>
+     </tr>
+     </table>
+     <br>
+     <br>
+     <hr>
+     <h2 id="tabla.elaborada">Tabla mas elaborada</h2>
+     <table>
+        <thead>
+            <tr>
+                <th colspan="2">Tabla de personajes de Overwatch</th>
+            </tr>
+        <tr>
+                <th>Nombre</th>
+                <th>Tipo</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+         <tr>
+         <td>D.va</td>
+         <td>tanque</td>
+        </tr>
+     <tr>
+        <td rowspan="2">Soldado 76</td>
+        <td>Daño</td>
+     </tr>
+     <tr>
+        <td>Mercy</td>
+        <td>Apoyo</td>
+     </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="2"><small>Overwatch es un videojuego desarrollado por Blizzard Entertainment</small></th>
+            </tr>
+
+
+        </tfoot>
+        <a href="index.html#indice">⬆️</a>
+     </table>
+
+     <h2 id="elemnt.inter">Elementos Interactivos</h2>
+     <button onclick="alert('soy el mensaje del botonnn')">Boton</button>
+     <br>
+     <h2>Acordeon</h2>
+     <details> <!--Sirve para crear acordones, permite ocultar y poner informacion adicional-->
+        <summary> El acordeon pa </summary> <!--Se usa para agregarle un titulo al acordeon-->
+            <article>
+                <h3>Contenido del acordeon pa</h3>
+                <p>Soy un acordeon, el one</p>
+                <p>Soy un acordeon, el two pa</p>
+                <p>Soy un acordeon, el three pa</p>
+            </article>
+     </details>
+     <br>
+     <details open>
+        <summary>El acordeon Paaaaaa</summary>
+            <article>
+                <h3>Contenido del acordeon pa</h3>
+                <p>Soy un acordeon, el one</p>
+                <img src="multimedia/imagenes,etc/acordeonzi.jpg">
+                <p>Soy alto acordeon pa</p>
+            </article>
+     </details>
+     <br>
+     <dialog open>Soy esa ventanita que aparece dentro de la propia pagina en chikito</dialog> <!--Esta etiqueta esta en experimental por ahora 2023, porque
+    no esta soportada para todos los navegadores, pero con CSS y HTML se puede hacer sin usar esta etiqueta una que sea soortada-->
+     <br>
+     <a href="index.html#indice">⬆️</a>
+     <hr>
+
+     <h2 id="i.frames">Iframes</h2>
+     <p>Ejemplo PDF / Atajos Vs Code</p>
+     <iframe src="multimedia/media/keyboard-shortcuts-windows.pdf" frameborder="1" scrolling="auto"></iframe>
+     <br>
+     <p>Jaja los simpsons</p>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/p07TK0S54AI" 
+     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+     allowfullscreen></iframe>
+     <br>
+     <p>Hermosa bibloteca</p>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.293535429098!2d-58.3942285!3d-34.5959833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabdfc191295%3A0x8110084c679e64c0!2sEl%20Ateneo%20Grand%20Splendid!5e0!3m2!1ses!2sar!4v1682279374998!5m2!1ses!2sar" 
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     <br>
+     <a href="index.html#indice">⬆️</a>
+     <hr>
+     <h2 id="formularios">Formularios</h2>
+     <form action="quesito.html" method="get">
+     <input type="text"> <!--Para escribir texto-->
+     <br><br>
+     <input type="date"><!--para poner fechas, año, mes y dia-->
+     <br><br>
+     <input type="time"><!--Para que el usuario pueda poner horas-->
+     <br><br>
+     <input type="checkbox"> <!--Para poner casillas para marcar, con checkbox se pueden marcar muchas-->
+      <input type="checkbox">
+       <input type="checkbox">
+     <br><br>
+     <input type="radio"name="opcion" value="opcion3"> 1 <br><!--para marcar casillas pero solo se puede marcar una-->
+      <input type="radio"name="opcion" value="opcion2"> 2 <br>
+       <input type="radio" name="opcion" value="opcion1"> 3 <br>
+     <br>
+     <input type="color"> <!--Es un cuadradito RGB de color-->
+     <br><br>
+     <input type="button" value="Botoncito"> <!--un boton que no viene con texto definido y depende las acciones que hara en como se configure-->
+     <br><br>
+     <input type="submit"> <!--Un boton que sirve para enviar la informacion de o de los formularios al servidor-->
+     <br><br>
+     <input type="reset"> <!--Para resetear todo lo que se haya puesto en los formularios o el formulario-->
+     <br><br>
+     <input type="file"> <!-- sirve para subir un solo archivo a la pagina-->
+     <br>
+     <input type="file" multiple> <!--Con multiple se puede seleccionar mas de un archivo-->
+     <br><br>
+     <input type="hidden" name="language" value="es"> <!--Para poner informacion oculta a la vista del usuario. Sirve para madnar datos ocultos al servidor-->
+     <input type="hidden" name="idioma" value="es"> <!--solo queria poner idioma en esapñol-->
+     <br><br>
+     <input type="range" min="1" max="10"> <!--Para hacer un rango numerico-->
+     <br><br>
+     <p>emails</p>
+     <input type="email"> <!--Para escribir un email-->
+     <br><br>
+     <p>numeros</p>
+     <input type="number"> <!-- Para escribir numeros tanto positivos como negativos-->
+     <br><br>
+     <p>telefono (mas para dispositivos tacticles)</p>
+     <input type="tel"> <!--Mas que nada cambia en dispositivos tactiles, es para poner numeros telefonicos-->
+     <br><br>
+     <p>contraseñas</p>
+     <input type="password"> <!--Para escribir contraseñas-->
+     <br><br>
+     <p>Para buscar y filtrar resultados en pagina o app</p>
+     <input type="search"> <!--Para buscar y filtrar resultados en una pagina o app, seria la barrita donde escribis las cosas y buscas-->
+     <br><br>
+     <p>Eejemplo con redonly y disabled</p>
+     <input type="text" value="Hola soy un pan" readonly>
+     <br>
+     <input type="text" value="Hola soy un pan" readonly disabled>
+     <br><br>
+     <h3>Formulario de Inicio de Sesion</h3>
+     <label for="">Usuario:</label>
+     <input type="text" name="Usuario" id="usuario" placeholder="Tu usuario" title="solo letras mayusculas o minusculas"  pattern="^[A-Za-z]+$" required>
+     <br>
+     <label for="">Contraseña:</label>
+     <input type="password" name="Contraseña" placeholder="contraseña" required>
+     <br>
+     <input type="submit">
+     <br><br>
+     <h3>Escribiendo cositas</h3>
+     <input type="text" name="texto" value="cosas" autocomplete="on">
+     <input type="text" name="texto" autocomplete="off">
+     <input type="submit">
+     
+
+     <br><br>
+     <input type="submit" value="Enviar">
+     <h3>Otras etiquetas de formularios</h3>
+     <textarea></textarea> <!--Como la caja de comentarios o para dejar un comentarios, se puede dejar asi y se podra mover el tamaño en la pagina, y definirlo.-->
+     <br>
+     <textarea cols="50" rows="20"></textarea> <!--Definimos que sea de ancho 50 letras masomenos y de largo 20.-->
+     <br><br>
+     <select name="" id=""> <!--Para crear una lista desplegable-->
+
+        <option value="">Buenos Aires</option>
+        <option value="">La plata</option>
+        <option value="">Capital Federal</option>
+
+     </select>
+     <br><br>
+    
+     <select name="" id="" multiple> <!--Para poder marcar mas de una, mantenemos crel y se puede marcar mas de una-->
+
+        <option value="">Buenos Aires</option>
+        <option value="">La plata</option>
+        <option value="">Capital Federal</option>
+
+     </select>
+
+
+     </form>
+     <a href="index.html#indice">⬆️</a>
+     <hr>
+     <h2 id="selec.r.c">Select(listas) radios y checkbox(los cositos de seleccionar)</h2>
+     <h3>Selects</h3>
+     <form>
+        <!--http://127.0.0.1:5500/index.html?Idioma=fr#selec.r.c--> <!--Como se ve en "Idioma=fr" lo que va es lo que pusimos en value.-->
+        <p>Elegi el idioma:</p>
+        <select name="Idioma">
+            <option value="">Solo elegi UNA opcion</option>
+            <option value="es">Español</option>
+            <option value="en">Inglés</option>
+            <option value="pt">Portugués</option>
+            <option value="it">Italiano</option>
+            <option value="fr">Francés</option>
+        </select>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reiniciar">
+     </form>
+     <p>Ejemplo con el atributo multiple:</p>
+     <form>
+        <!--http://127.0.0.1:5500/index.html?Comidas=burger&Comidas=pizz&Comidas=sushi#selec.r.c
+        como se ve en la URL, se van poniendo los valores o nombres que pusimoms en value y eso es lo que se enviara al servidor o donde vaya la informacion-->
+        <p>Comidas que te gusten</p>
+        <select name="Comidas" multiple>
+            <option value="">Se puede mas de una opcion</option>
+            <option value="burger">Hamburguesa</option>
+            <option value="pizz">Pizza</option>
+            <option value="empa">Empanadas</option>
+            <option value="sushi">Sushi</option>
+            <option value="taco">Tacos</option>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+        </select>
+     </form>
+     <br>
+     <p>Ahora con el atributo required</p>
+     <form>
+     <select name="transporte" required> 
+     <p>¿Que tipo de transporte prefieres?</p>
+     <option value="">Una opcion</option>
+     <option value="bus">Colectivo</option>
+     <option value="car"selected>Auto</option>
+     <option value="bici">Bicicleta</option>
+     <option value="subte">Subte o tren</option>
+     <input type="submit">
+     <input type="reset">
+     </select>
+     </form>
+     <br>
+     <form>
+     <p>Elegi el idioma:</p>
+        <select name="Idioma" required>
+            <option value="">Solo elegi UNA opcion</option>
+            <option value="es">Español</option>
+            <option value="en">Inglés</option>
+            <option value="pt">Portugués</option>
+            <option value="it">Italiano</option>
+            <option value="fr">Francés</option>
+        </select>
+     <p>Elige cual es tu color favorito:(esto es radio)</p>
+     
+        <input type="radio" name="color" id="radio-V" value="vrd" required> <!--Importante, todas las opciones de esta pregunta deben tener el mismo nombre-->
+        <label for="radio-V">Verde</label> <br>
+        <input type="radio" name="color" id="radio-A" value="azl"> 
+        <label for="radio-A">Azul</label> <br>
+        <input type="radio" name="color" id="radio-P" value="pra" checked>
+        <label for="radio-P">Purpura</label> <br>
+        <input type="radio" name="color" id="radio-N" value="nra">
+        <label for="radio-N">Naranja</label> <br>
+     
+     <!--Si quisieramos hacer lo mismo de selected en radio, se hace con checked y se debe poner en el input no en label. Lo que hara es ya tener la opcion marcada-->
+     <!--Tambien funciona el atributo required, y no es necesario ponerselo a todos los inputs, con que se lo pongamos a uno es suficiente.-->
+
+     <p>Ahora checkbox:</p> 
+     <p>Marca tus intereses paa</p>
+     <label>
+        <input type="checkbox" name="intereses" value="spor"> <!--A diferencia del radio, aca si deberia ser diferente el name sport es deporte-->
+        Deportes
+     </label>
+     <label>
+        <input type="checkbox" name="intereses" value="meal"> <!--A diferencia del radio, aca si deberia ser diferente el name meal es comida en ingles-->
+        Comida
+     </label>
+     <label>
+        <input type="checkbox" name="intereses-fitness" value="fitness"> <!--A diferencia del radio, aca si deberia ser diferente el name ftiness se refiera al ejercicio-->
+        Fitness
+     </label>
+     <label>
+        <input type="checkbox" name="intereses-finance" value="finance"> <!--A diferencia del radio, aca si deberia ser diferente el name finance=finanzas-->
+        Finanzas
+     </label>
+     <label>
+        <input type="checkbox" name="intereses-health" value="health" checked> <!--A diferencia del radio, aca si deberia ser diferente el name health=salud-->
+        Salud
+     </label>
+     <br>
+     
+     <!--http://127.0.0.1:5500/index.html?Idioma=en&color=vrd&intereses-meal=meal&intereses-fitness=fitness#selec.r.c ahi se ven los intereses mas lo anterior, idioma y color-->
+     <!--Y podriamos en name, sacar el nombre de la opcion y seguiria funcionando, ejemplo: saque los primeros dos en name y lo deje como "intereses" 
+     y sin embargo sigue funcionando perfecto.-->
+     <!--tambien podriamos usar el atributo checked para dejar uno marcado desde que cargue la pagina y seguiria funcionando
+     y si necesitamos que sea requirido le ponemos required a alguno pero usarlo en checkbox no tiene mucho sentido jaja, pero si usarlo cuando dice: -->
+
+     <label>
+        <input type="checkbox" name="condiciones" required><!--aca si tendria sentido poner required y no es necesario ponerle value porque lo toma como un valor verdadero (true)-->
+        ¿Aceptas las condiciones?
+     </label>
+     <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reiniciar">
+     </form>
+     <a href="index.html#indice">⬆️</a>
+     <br><hr>
+     <h2 id="formu-de-contac">Formulario de contacto</h2>
+     <form action="https://formsubmit.co/martin49_@outlook.com" method="post">
+        <input type="text" name="nombre" placeholder="Pon tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Solo letras y espacios en blancos pa" requiered> <!--pattern es patron y se usa para definir algo -->
+        <br>
+        <input type="email" name="email" placeholder="Pon tu email" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Pone un email valido pa" required> 
+     <br>
+     <textarea name="comentarios" cols="50" rows="10" placeholder="Escribe un comentario"required></textarea>
+     <br>
+     <input type="submit">
+     </form>
+     <br>
+     <hr>
+     <h2 id="data-a">Data Attributes</h2>
+      
+      <li data-price="1">Samsung</li>
+      <li data-price="2">Apple</li>
+      <li data-price="3">Xiaomi</li>
+      <li data-price="4">Huawei</li>
+      <li data-price="5">Lg</li>
+
+      <br>
+      <a href="index.html#indice">⬆️</a>
+      <hr>
+      <h2 id="meta-e">Metaetiquetas para SEO y moviles</h2>
+      <p>Para esto se debe ir al head de nuestro documento HTML en nuestro editor</p>
+      <code>
+        link rel="canonica" href="https://tudominio.com/la-url-canónica" <b>(Esta seria la URL canonica (significa que es la URL original) de nuestra pagina web)</b><br> 
+        link rel="icon" href="multimedia/imagenes,etc/favicon.png" <b>(El icono pequeño que aparece en la ventana del computador)</b><br> 
+        link rel="apple-touch-icon" href="multimedia/imagenes,etc/favicon.png" <b>(El icono pero para dispositivos moviles, en esta la resolucion debe ser la mejor)</b><br>
+        meta name="theme-color" content="#008000" para moviles <b>(Para que en los moviles se vea en color la parte donde esta la URL, etc.)</b><br>
+        meta name="keywords" content="Practicar html, html, ejemplos"<b>(Para poner palabras clave)</b><br>
+        meta name="author" content="Yo, Franco Mazzei" <b>(Para poner el nombre del autor/a o autores)</b><br>
+        meta name="Copyrigth" content="empresa.inc" <b>(Para especificar los derechos de autor)</b><br>
+        meta name="robots" content="noindex" <b>(Para que los motores de busqueda sigan esos enlaces)</b><br>
+        meta name="robots" content="nofollow" <b>(para que los motores de busqueda no sigan esos enlaces)</b><br>    
+        </code>
+        <br>
+        <p>Estas serian algunas de las metaetiquetas para SEO y dispositivos moviles, porque como se ve en el word, hay mas etiquetas que puede ser title o description
+            que se encuentran en head donde estan todas las meta etiquetas. Esto es solo un ejemplo.
+        </p>
+        <a href="index.html#indice">⬆️</a>
+        <hr>
+        <h2 id="metae-redess">Meta etiquetas para redes sociales</h2>
+        <code>
+            meta property="og:title" content="practikeishon" <b> (Para que se vea el titulo de lo que compartamos en redes sociales)</b><br> 
+            meta property="og:description" content="Tamos viendo html aca perreque" <b>(Para que se vea la descripcion de lo que compartamos en redes sociales)</b> <br> 
+            meta property="og:image" content="https://tudominio.com/la-ruta-de-la-imagen"  <b>(Para poner la imagen referente que se vera al compartir la URL)</b><br> 
+            meta property="og:url" content="https://tudominio.com/index.html" <b>(Para poner la URL canónica o original y primero necesitamos tener un dominio)</b> <br> 
+            meta name="twitter:card" content="summary"> <b>(El formato especial que tiene Twitter. twitter:card es para la apariencia que tendra la url al compartir y summary significa la descripcion breve que da)</b><br> 
+            meta name="twitter:site" content="cuentadetwiter" <b>(El formato especial de Twitter. twitter:site es para especificar el nombre del usuario y content es para poner el nombre del usuario)</b><br> </code>
+            <br> 
+            <a href="index.html#indice">⬆️</a>
+            <hr>
+            <h2 id="acc-web">Accesibilidad web</h2>
+            <h3 role="title">Los diferentes tipos de climas</h3>
+            <ul role="list">
+                <li tabindex="1" role="listitem">Tropicla</li>
+                <li tabindex="2" role="listitem">Seco</li>
+                <li tabindex="3" role="listitem">Templado</li>
+                <li tabindex="5" role="listitem">Continental</li>
+                <li tabindex="4" role="listitem">Polar</li>
+               </ul>
+
+               <a role="link" aria-label=" EN este enlace hay mas información acerca de los diferentes climas en el mundo" href="#" target="_blank" >
+                Mas información</a>
+                <p><b>role</b>, es un atributo que se usa para especificar a las herramientas de ayuda el rol semantico (significado) que cumple el elemento en la pag.<br>
+                <b>role="title"</b> indica que el rol es de un titulo.<br>
+                <b>role="list"</b> inidica que el rol es el de una lista.<br>
+                <b>role="listitem"</b> indica que un elemento HTML forma parte de una lista. <br>
+                <b>tabiindex,</b> este atributo se usa para poder navegar por la pagina con la tecla TAB del teclado, en caso de no tener mouse el usuario o que se le haya  quedado sin bateria, etc.<br>
+                <b>aria-label,</b> este atributo se usa para dar una descripcion del elemento interactivo, como por ejemplo un link, daria una descripcion de lo que se vera en el link.
+                Descripcion previamente puesta alli por la persona que haya hecho el documento HTML.<br></p>
+                <a href="index.html#indice">⬆️</a>
+
+                <script src="multimedia/assets/codigo.js"></script>
+
+    </body>
+
+
+    </html>

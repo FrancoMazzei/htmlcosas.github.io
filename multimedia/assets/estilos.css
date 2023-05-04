@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+
+
+
+h2 {
+    color: crimson;
+}
+h1 {
+    color: crimson;
+}
+h3 {
+    color: crimson
+}
+
+h4 {
+    color: crimson;
+}
+
+img,       /*esto seria para que las imagenes y vides se ajuste al tamaño de la pantalla*/
+video{
+    max-width: 100;  
+    height: auto;
+}
+
+iframe {
+    width: 900px;
+    height: 780px;
+}
